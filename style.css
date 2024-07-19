@@ -805,7 +805,7 @@ footer{
     gap: 20px;
 }
 .footerfirst>img:first-child{
-    width: 30%;
+    width: 40%;
     padding: 20px 0 15px 0;
 }
 .footerfirst>p{
@@ -813,7 +813,7 @@ footer{
     font-weight: 400;
 }
 .footerfirst>img:last-child{
-    width: 12%;
+    width: 15%;
 }
 .footersecond{
     display: flex;
@@ -878,6 +878,8 @@ footer{
     justify-content: space-between;
     align-items: center;
     padding: 40px 0 15px;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 .footerfive>p{
     color: white;
@@ -892,10 +894,5 @@ footer{
 @media screen and  (max-width:1240px){
     .footerfirst{
         width: 100%;
-    }
-}
-@media screen and (max-width:660px){
-    .footerfirst>img{
-        width: 50%;
     }
 }
