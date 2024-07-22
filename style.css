@@ -111,7 +111,7 @@
     overflow: hidden;
     width: 100%;
     height: auto;
-    padding-top: 30px;
+    padding-top: 40px;
     background-color: white;
 
 }
@@ -159,7 +159,7 @@ nav {
 }
 
 .center {
-    padding: 30px 0;
+    padding: 56px 0 50px 0;
     display: flex;
     justify-content: center;
     /* align-items: center; */
@@ -168,6 +168,7 @@ nav {
 }
 
 .center>img {
+    margin-top: -48px;
     width: 100%;
 }
 
@@ -200,7 +201,7 @@ nav {
 }
 
 .second {
-    margin-top: -60px;
+    margin-top: -78px;
     /* overflow: hidden; */
     background: url(boxbg.jpg);
     background-position: center;
@@ -211,7 +212,7 @@ nav {
     opacity: 95%;
     display: flex;
     flex-direction: column;
-    padding: 115px 0 65px 0;
+    padding: 116px 0 52px 0;
 }
 
 .uppercontent {
@@ -219,9 +220,8 @@ nav {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    margin-bottom: 88px;
+    margin-bottom: 96px;
     color: white;
-    gap: 20px;
     text-align: center;
 }
 
@@ -248,13 +248,12 @@ nav {
 }
 
 .sec-boxes {
-
+    margin-bottom: 54px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    height: 508px;
-    padding-bottom: 54px;
+    /* height: 508px; */
     gap: 25px;
 }
 
@@ -274,9 +273,12 @@ nav {
         justify-content: center;
         height: auto;
     }
-
+    .sec-box{
+        width: 40%;
+    }
     .uppercontent {
         flex-direction: column;
+        gap: 20px;
     }
     .sec-box>img{
         width: 100%;
@@ -290,7 +292,11 @@ nav {
         width: 60%;
     }
 }
-
+@media screen and (max-width:595px){
+    .sec-box{
+        width: 80%;
+    }
+}
 .third {
     background-color: white;
     width: 100%;
@@ -370,6 +376,7 @@ nav {
     gap: 48px;
 }
 
+
 .trightbar {
     display: flex;
     flex-direction: column;
@@ -387,7 +394,7 @@ nav {
 .trightbar>p {
     font-weight: 500;
     color: grey;
-    font-size: 18.65px;
+    font-size: 19.63px;
     line-height: 26.1px;
     letter-spacing: -0.015em;
 }
@@ -533,15 +540,14 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 34.5px;
 }
 
 .fiveupper {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 40px;
+    margin-bottom: 48px;
     align-items: center;
-    padding: 0 20px;
+    /* padding: 0 20px; */
 }
 
 .fiveupper>h1 {
@@ -572,12 +578,11 @@ nav {
     display: flex;
     width: 99.4%;
     gap: 14px;
-    padding: 0 20px 63px 20px;
-
+    margin: 0  0 63.08px 0;
 }
 
 .fivemiddleimages>img {
-    width: 51%;
+    width: 49.07%;
 }
 
 @media screen and (max-width:980px) {
@@ -605,12 +610,13 @@ nav {
 
 .fivebuttons {
     width: max-content;
-    margin: auto;
+    margin: 48px auto;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 14px;
     flex-wrap: wrap;
+    
 }
 
 .fivebuttons>button {
@@ -727,7 +733,6 @@ nav {
 .sixbox {
     padding: 21px 0;
     width: 784px;
-    height: 264.84px;
     background-color: #262626;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -743,10 +748,13 @@ nav {
 }
 
 .sixboximage>img {
-    width: 6%;
+    width: 7.3%;
     background-size: cover;
 }
+.sixboxstars>img{
+    width: 22.3%;
 
+}
 .sixdown {
     display: flex;
     flex-direction: column;
@@ -761,7 +769,6 @@ nav {
 }
 
 .sixdown>p {
-    font-family: Urbanist;
     font-size: 18.28px;
     font-weight: 400;
     line-height: 21.93px;
@@ -786,7 +793,7 @@ nav {
 .sixbox>p {
     font-size: 20px;
     font-weight: 400;
-    line-height: 26.1px;
+    line-height: 26.5px;
     letter-spacing: -0.015em;
     text-align: left;
     color: white;
@@ -874,12 +881,12 @@ nav {
 
 .seveninputbar {
     display: flex;
-    width: 105.5%;
+    width: 104.1%;
     position: relative;
 }
 
 .seveninputbar>input {
-    width: 103.8%;
+    width: 100%;
     display: flex;
     align-items: center;
     padding: 31px 10px;
@@ -914,7 +921,7 @@ nav {
 }
 
 .sevenlist {
-    width: 97.6%;
+    width: 96.40%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -956,7 +963,7 @@ nav {
 
 .centerbox {
     width: 100%;
-    height: 16.71vh;
+    height: 18.3vh;
     /* background-color: blueviolet; */
     background: url(centerimage.png);
     background-size: cover;
@@ -971,7 +978,7 @@ nav {
     padding: 97px 0;
     display: flex;
     flex-direction: column;
-    gap: 49px;
+    gap: 48px;
 }
 
 .eightupper {
@@ -1008,18 +1015,17 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* gap: 10px; */
+    gap: 10px;
 }
 
 .eightbox>img {
     width: 100%;
-    padding: 1.5px 0;
 }
 
 .eightbox {
     display: flex;
     flex-direction: column;
-    gap: 37px;
+    gap: 35px;
     justify-content: center;
     align-items: center;
     width: 32.1%;
@@ -1030,7 +1036,7 @@ nav {
     justify-content: center;
     gap: 36px;
     flex-direction: column;
-    margin-left: 48px;
+    width: 100%;
 }
 
 .eightcontent>button {
@@ -1055,16 +1061,18 @@ nav {
 }
 
 .eightcontent>p {
+    font-weight: 400;
+    line-height: 37.1px;
     font-size: 26px;
 }
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:1244px) {
     .eightboxes {
         flex-wrap: wrap;
     }
 
     .eightbox {
-        width: 50%;
+        width: 46%;
     }
 }
 
@@ -1119,7 +1127,7 @@ hr{
     background-color: rgba(230, 227, 227, 0.527);
     width: 100%;
     height: 2px;
-    margin: 55.2px 0;
+    margin: 54px 0;
 }
 .footerupper>button {
     width: 15.6%;
@@ -1147,16 +1155,19 @@ hr{
     flex-direction: column;
     gap: 20px;
     width: 48.93%;
+    height: max-content;
 }
 
 .footerfirst>img:first-child {
     width: 50%;
-    /* padding: 20px 0 15px 0; */
 }
 
 .footerfirst>p {
-    color: white;
+    font-size: 20px;
     font-weight: 400;
+    line-height: 23.1px;
+    letter-spacing: -0.015em;
+    color: white;
 }
 
 .footerfirst>img:last-child {
@@ -1183,7 +1194,7 @@ hr{
 .footerthird {
     display: flex;
     flex-direction: column;
-    gap: 16.7px;
+    gap: 28px;
 }
 
 .footerthird>h3 {
@@ -1199,7 +1210,7 @@ hr{
 .footerfour {
     display: flex;
     flex-direction: column;
-    gap: 16.7px;
+    gap: 28px;
     width: 23.43%;
 }
 
