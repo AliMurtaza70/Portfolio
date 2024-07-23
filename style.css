@@ -1130,7 +1130,7 @@ hr{
     margin: 54px 0;
 }
 .footerupper>button {
-    width: 15.6%;
+    width: auto;
     font-size: 25.69px;
     font-weight: 500;
     line-height: 33.53px;
@@ -1140,6 +1140,9 @@ hr{
     color: white;
     background-color: rgb(255, 109, 56);
     border: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footermiddle {
@@ -1238,13 +1241,14 @@ hr{
 
 .footerinputimage {
     position: absolute;
-    left: 85%;
+    /* left: 85%; */
     bottom: -8px;
+    right: -6px;
 }
 
 .footerinputimage>img {
-    width: 108%;
-    border-radius: 12px;
+    width: 93%;
+    border-radius: 13px;
 }
 
 .footerfive {
